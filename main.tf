@@ -9,9 +9,9 @@ resource "aws_instance" "web" {
 
 //    ${data.terraform_remote_state.sg.sg_id}"]
 
-  tags {
-    Name         = "Terraform Test"
-    ContactOwner = "lcorbo"
-    Note         = "Used for example test, can be destroyed with no impact to ongoing project."
-  }
+//  tags {
+//    Name         = "Terraform Test"
+//    ContactOwner = "lcorbo"
+//    Note         = "Used for example test, can be destroyed with no impact to ongoing project."
+//  }
 }
