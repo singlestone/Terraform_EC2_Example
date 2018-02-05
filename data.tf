@@ -1,3 +1,5 @@
+/*
+
 data "terraform_remote_state" "sg" {
   backend = "local"
 
@@ -21,3 +23,4 @@ data "terraform_remote_state" "vpc" {
     path = "../Terraform_VPC_example/VPC/terraform.tfstate"
   }
 }
+*/
